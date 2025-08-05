@@ -59,25 +59,43 @@
         "language": "ar",
         "groups": [
           {
-            "group": "مقدمة",
+            "group": "البداية السريعة",
             "pages": [
-              "ar/introduction",
-              "ar/getting-started"
+              "ar/Quick-Start/Introduction",
+              "ar/Quick-Start/Best-Practices"
             ]
           },
           {
-            "group": "المميزات",
+            "group": "الوكيل الذكي",
             "pages": [
-              "ar/features/overview",
-              "ar/features/ai-capabilities",
-              "ar/features/custom-training"
+              "ar/AI-Agent/Text-Agent",
+              "ar/AI-Agent/Voice-Agent",
+              "ar/AI-Agent/Hypird-Agent",
+              "ar/AI-Agent/Inbox"
             ]
           },
           {
-            "group": "التكوين",
+            "group": "التكاملات",
             "pages": [
-              "ar/configuration/setup",
-              "ar/configuration/advanced"
+              "ar/Integrations/Zendesk",
+              "ar/Integrations/Calendly",
+              "ar/Integrations/Cal",
+              "ar/Integrations/Google-Calendar"
+            ]
+          },
+          {
+            "group": "خيارات النشر",
+            "pages": [
+              "ar/Deployment/Embed-on-your-website",
+              "ar/Deployment/Messenger",
+              "ar/Deployment/WhatsApp",
+              "ar/Deployment/Instagram"
+            ]
+          },
+          {
+            "group": "الأسئلة الشائعة",
+            "pages": [
+              "ar/FAQ/Frequently-Asked-Questions"
             ]
           }
         ]
