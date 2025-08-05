@@ -56,46 +56,51 @@
         ]
       },
       {
-        "tab": "Arabic",
+        "tab": "العربية",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "البداية السريعة",
             "pages": [
-              "api-reference/introduction"
+              "ar/Quick-Start/Introduction",
+              "ar/Quick-Start/Best-Practices"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "الوكيل الذكي",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "ar/AI-Agent/Text-Agent",
+              "ar/AI-Agent/Voice-Agent",
+              "ar/AI-Agent/Hypird-Agent",
+              "ar/AI-Agent/Inbox"
+            ]
+          },
+          {
+            "group": "التكاملات",
+            "pages": [
+              "ar/Integrations/Zendesk",
+              "ar/Integrations/Calendly",
+              "ar/Integrations/Cal",
+              "ar/Integrations/Google-Calendar"
+            ]
+          },
+          {
+            "group": "خيارات النشر",
+            "pages": [
+              "ar/Deployment/Embed-on-your-website",
+              "ar/Deployment/Messenger",
+              "ar/Deployment/WhatsApp",
+              "ar/Deployment/Instagram"
+            ]
+          },
+          {
+            "group": "الأسئلة الشائعة",
+            "pages": [
+              "ar/FAQ/Frequently-Asked-Questions"
             ]
           }
         ]
       }
     ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
   "logo": {
     "light": "/logo/wittify-light.webp",
     "dark": "/logo/wittify-logo-white.webp"
@@ -132,4 +137,3 @@
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
-}
