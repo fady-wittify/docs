@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Wittify",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -14,35 +14,43 @@
         "tab": "English",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Quick Start",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "en/Quick-Start/Introduction",
+              "en/Quick-Start/Best-Practices"
             ]
           },
           {
-            "group": "Customization",
+            "group": "AI Agent",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "en/AI-Agent/Text-Agent",
+              "en/AI-Agent/Voice-Agent",
+              "en/AI-Agent/Hypird-Agent",
+              "en/AI-Agent/Inbox"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Integrations",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "en/Integrations/Zendesk",
+              "en/Integrations/Calendly",
+              "en/Integrations/Cal",
+              "en/Integrations/Google-Calendar"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Deployment",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "en/Deployment/Embed-on-your-website",
+              "en/Deployment/Messenger",
+              "en/Deployment/WhatsApp",
+              "en/Deployment/Instagram"
+            ]
+          },
+          {
+            "group": "FAQs",
+            "pages": [
+              "en/FAQ/Frequently-Asked-Questions"
             ]
           }
         ]

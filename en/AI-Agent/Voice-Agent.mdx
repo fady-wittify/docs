@@ -1,0 +1,102 @@
+---
+title: Create a Voice AI Agent
+description: Step-by-step guide to create and configure a Voice AI Agent on Wittify.AI
+---
+
+# 🎙️ Creating a Voice AI Agent
+
+Follow this guide to set up and launch a voice-enabled AI agent using Wittify.AI. This agent can speak, respond in multiple languages, and provide smart voice interaction with your users.
+
+---
+
+## 🧩 1. Basic Configuration
+
+
+### Required Fields:
+- **Agent Name**: Internal reference for your AI agent.
+- **Core Instructions**: Describe the main goal of this agent. You can use pre-built (or pre-defined templates) such as customer support agent, sales agent, technical support agent, live chat companion agent, lead qualification agent, hr specialist agent, and marketing agent.
+- **Starter Questions**:
+  - Shown as clickable prompts to guide users
+- **Temperature**:
+  - Controls creativity: `0 = more accurate`, `1 = more creative`
+
+---
+
+## 🎨 2. Widget Appearance
+
+
+Customize the agent’s widget style:
+
+- **Bot Avatar**: Upload a profile image (`.jpg`, `.png`, `.webp`).
+- **Accent Color**: Widget’s theme color.
+- **Position**: Left, Center, or Right of the screen.
+- **Font**: Pick a font for all widget text (e.g., Times New Roman).
+- **Widget Behavior**:
+  - Toggle Wittify branding visibility.
+  - Toggle whether the widget opens automatically.
+
+---
+
+## 🌐 3. Voice Settings
+
+- **Voice Selection**: Pick a voice provider (e.g., ElevenLabs voice like “Sarah”).
+- **Auto Detect Language**: Automatically switch language based on user speech.
+- **Toggle Allow Interruption**: Allow user to interrupt while the agent is speaking.
+
+### 🔧 Advanced Settings
+
+- `End call on silence`: If there's no audio input from the user for 60 seconds, the call will automatically end.
+- `Max call length`: The AI call will automatically end after 10 minutes, regardless of the conversation state.
+- `Time before widget pop up`: Time delay before the AI widget appears on the screen after a trigger event.
+- `min_speech_duration`: The shortest time the AI considers as valid speech from the user.
+- `min_silence_duration`: Defines how long a pause must be before the AI interprets it as "silence" and possibly takes action.
+
+---
+
+## 📚 4. Knowledge Base Training
+
+### 📁 Upload Files
+
+You can upload PDFs, Word, or Excel docs (up to 100MB) to train your agent’s knowledge.
+
+### 🔗 Add Web Links
+
+Paste links to fetch and ingest online content dynamically.
+
+### ❓ Add FAQs
+
+Manually add Q&A entries that your agent can answer.
+
+Click **Upload and Train** after each content input to sync the agent.
+
+---
+
+## ⚙️ 5. Languages
+
+- Choose the languages your bot can respond in (e.g., English, Arabic, Spanish, and/or French).
+
+### Advanced Options
+- **Header Title**: Label shown at the top of the chatbot.
+- **Header Subtitle / Tagline**: Short tagline shown directly under the header title. Use it to communicate the bot’s purpose.
+- **Welcome Message**: Displayed when the agent first opens. Should invite the user to engage naturally.
+- **Text Input Field Placeholder**: This is the placeholder text inside the input box before the user types.
+- **Disclaimer Text**: A line displayed to notify users of potential limitations or errors in AI behavior.
+
+---
+
+## 🌐 6. Deploy & Embed Agent
+
+### Embed in Website
+- Use the script snippet to place the agent in your app or landing page.
+
+### Set Allowed Domains
+- Only defined domains can load the widget.
+
+---
+
+## ✅ Final Step
+
+Click **Save Changes** on each screen to finalize the agent.
+
+> 🎉 Your Voice Agent is now ready to go live!
+
