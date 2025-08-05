@@ -14,8 +14,44 @@
         "language": "en",
         "groups": [
           {
-            "group": "Getting Started",
-            "pages": ["en/overview", "en/quickstart", "en/development"]
+            "group": "Quick Start",
+            "pages": [
+              "en/Quick-Start/Introduction",
+              "en/Quick-Start/Best-Practices"
+            ]
+          },
+          {
+            "group": "AI Agent",
+            "pages": [
+              "en/AI-Agent/Text-Agent",
+              "en/AI-Agent/Voice-Agent",
+              "en/AI-Agent/Hypird-Agent",
+              "en/AI-Agent/Inbox"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "en/Integrations/Zendesk",
+              "en/Integrations/Calendly",
+              "en/Integrations/Cal",
+              "en/Integrations/Google-Calendar"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "en/Deployment/Embed-on-your-website",
+              "en/Deployment/Messenger",
+              "en/Deployment/WhatsApp",
+              "en/Deployment/Instagram"
+            ]
+          },
+          {
+            "group": "FAQs",
+            "pages": [
+              "en/FAQ/Frequently-Asked-Questions"
+            ]
           }
         ]
       },
@@ -23,8 +59,26 @@
         "language": "ar",
         "groups": [
           {
-            "group": "Arabic",
-            "pages": ["ar/overview", "ar/quickstart", "ar/development"]
+            "group": "مقدمة",
+            "pages": [
+              "ar/introduction",
+              "ar/getting-started"
+            ]
+          },
+          {
+            "group": "المميزات",
+            "pages": [
+              "ar/features/overview",
+              "ar/features/ai-capabilities",
+              "ar/features/custom-training"
+            ]
+          },
+          {
+            "group": "التكوين",
+            "pages": [
+              "ar/configuration/setup",
+              "ar/configuration/advanced"
+            ]
           }
         ]
       }
@@ -49,6 +103,24 @@
   },
   "contextual": {
     "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  }
+}
      "copy",
      "view",
      "chatgpt",
