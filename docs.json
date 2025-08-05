@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "venus",
   "name": "Wittify",
   "colors": {
     "primary": "#16A34A",
@@ -100,7 +100,8 @@
           }
         ]
       }
-    ],
+    ]
+  },
   "logo": {
     "light": "/logo/wittify-light.webp",
     "dark": "/logo/wittify-logo-white.webp"
@@ -137,3 +138,4 @@
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
+}
