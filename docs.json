@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "venus",
   "name": "Wittify",
   "colors": {
     "primary": "#16A34A",
@@ -9,94 +9,22 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "English",
+        "language": "en",
         "groups": [
           {
-            "group": "Quick Start",
-            "pages": [
-              "en/Quick-Start/Introduction",
-              "en/Quick-Start/Best-Practices"
-            ]
-          },
-          {
-            "group": "AI Agent",
-            "pages": [
-              "en/AI-Agent/Text-Agent",
-              "en/AI-Agent/Voice-Agent",
-              "en/AI-Agent/Hypird-Agent",
-              "en/AI-Agent/Inbox"
-            ]
-          },
-          {
-            "group": "Integrations",
-            "pages": [
-              "en/Integrations/Zendesk",
-              "en/Integrations/Calendly",
-              "en/Integrations/Cal",
-              "en/Integrations/Google-Calendar"
-            ]
-          },
-          {
-            "group": "Deployment",
-            "pages": [
-              "en/Deployment/Embed-on-your-website",
-              "en/Deployment/Messenger",
-              "en/Deployment/WhatsApp",
-              "en/Deployment/Instagram"
-            ]
-          },
-          {
-            "group": "FAQs",
-            "pages": [
-              "en/FAQ/Frequently-Asked-Questions"
-            ]
+            "group": "Getting Started",
+            "pages": ["en/overview", "en/quickstart", "en/development"]
           }
         ]
       },
       {
-        "tab": "العربية",
+        "language": "ar",
         "groups": [
           {
-            "group": "البداية السريعة",
-            "pages": [
-              "ar/Quick-Start/Introduction",
-              "ar/Quick-Start/Best-Practices"
-            ]
-          },
-          {
-            "group": "الوكيل الذكي",
-            "pages": [
-              "ar/AI-Agent/Text-Agent",
-              "ar/AI-Agent/Voice-Agent",
-              "ar/AI-Agent/Hypird-Agent",
-              "ar/AI-Agent/Inbox"
-            ]
-          },
-          {
-            "group": "التكاملات",
-            "pages": [
-              "ar/Integrations/Zendesk",
-              "ar/Integrations/Calendly",
-              "ar/Integrations/Cal",
-              "ar/Integrations/Google-Calendar"
-            ]
-          },
-          {
-            "group": "خيارات النشر",
-            "pages": [
-              "ar/Deployment/Embed-on-your-website",
-              "ar/Deployment/Messenger",
-              "ar/Deployment/WhatsApp",
-              "ar/Deployment/Instagram"
-            ]
-          },
-          {
-            "group": "الأسئلة الشائعة",
-            "pages": [
-              "ar/FAQ/Frequently-Asked-Questions"
-            ]
+            "group": "Arabic",
+            "pages": ["ar/overview", "ar/quickstart", "ar/development"]
           }
         ]
       }
