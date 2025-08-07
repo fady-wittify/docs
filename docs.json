@@ -74,7 +74,8 @@
               "ar/AI-Agent/Text-Agent",
               "ar/AI-Agent/Voice-Agent",
               "ar/AI-Agent/Hypird-Agent",
-              "ar/AI-Agent/Inbox"
+              "ar/AI-Agent/Inbox",
+              "ar/AI-Agent/Agent-Overview" 
             ]
           },
           {
