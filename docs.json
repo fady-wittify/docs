@@ -36,7 +36,10 @@
             "pages": [
               "en/Integrations/Calendly",
               "en/Integrations/Cal",
-              "en/Integrations/Google-Calendar"
+              "en/Integrations/Google-Calendar",
+              "en/Integrations/Salesforce"
+              "en/Integrations/Leads",
+              "en/Integrations/Campaigns"  
             ]
           },
           {
