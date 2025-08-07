@@ -32,7 +32,6 @@
           {
             "group": "Integrations and Tools",
             "pages": [
-              "en/Integrations/Zendesk",
               "en/Integrations/Calendly",
               "en/Integrations/Cal",
               "en/Integrations/Google-Calendar"
