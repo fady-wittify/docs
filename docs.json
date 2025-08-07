@@ -85,6 +85,7 @@
               "ar/Integrations/Calendly",
               "ar/Integrations/Cal",
               "ar/Integrations/Google-Calendar",
+              "ar/Integrations/Salesforce",
               "ar/Integrations/Leads",
               "ar/Integrations/Campaigns" 
             ]
