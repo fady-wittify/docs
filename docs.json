@@ -17,7 +17,9 @@
             "group": "Quick Start",
             "pages": [
               "en/Quick-Start/Introduction",
-              "en/Quick-Start/Best-Practices"
+              "en/Quick-Start/Best-Practices",
+              "en/Quick-Start/Best--Practices"
+
             ]
           },
           {
@@ -66,7 +68,8 @@
             "group": "البداية السريعة",
             "pages": [
               "ar/Quick-Start/Introduction",
-              "ar/Quick-Start/Best-Practices"
+              "ar/Quick-Start/Best-Practices",
+              "ar/Quick-Start/Best--Practices"
             ]
           },
           {
