@@ -69,7 +69,7 @@
             ]
           },
           {
-            "group": "الوكيل الذكي",
+            "group": "المساعد الذكي",
             "pages": [
               "ar/AI-Agent/Text-Agent",
               "ar/AI-Agent/Voice-Agent",
@@ -79,9 +79,8 @@
             ]
           },
           {
-            "group": "التكاملات",
+            "group": "التكاملات والأدوات",
             "pages": [
-              "ar/Integrations/Zendesk",
               "ar/Integrations/Calendly",
               "ar/Integrations/Cal",
               "ar/Integrations/Google-Calendar"
