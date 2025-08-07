@@ -83,7 +83,9 @@
             "pages": [
               "ar/Integrations/Calendly",
               "ar/Integrations/Cal",
-              "ar/Integrations/Google-Calendar"
+              "ar/Integrations/Google-Calendar",
+              "ar/Integrations/Leads",
+              "ar/Integrations/Campaigns" 
             ]
           },
           {
